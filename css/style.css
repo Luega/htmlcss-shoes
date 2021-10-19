@@ -8,6 +8,36 @@ html {
     font-size: 100%;
 }
 
+/* START NAV */
+nav {
+    position: fixed;
+    z-index: 10;
+}
+
+nav .ul {
+    height: 2em;
+    list-style: none;
+}
+
+nav li {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: auto;
+    background-color: white;
+    box-shadow: 0.2em 0.2em;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
 /* START RUES FOR GENERAL CONTAINER */
 .container {
     width: 100%;
@@ -30,28 +60,28 @@ html {
 }
 
 /* START BIG FIRST CONTINER */
-.big-first h1 {
+#big-first h1 {
     color: yellow;
 }
 
-.big-first.container {
+#big-first.container {
     background-color: red;
 }
 
 /* START BIG SECOND CONTINER */
-.big-second h1 {
+#big-second h1 {
     color: yellow;
 }
 
-.big-second.container {
+#big-second.container {
     background-color: green;
 }
 
 /* START BIG THIRD CONTINER */
-.big-third h1 {
+#big-third h1 {
     color: green;
 }
 
-.big-third.container {
+#Sbig-third.container {
     background-color: yellow;
 }
